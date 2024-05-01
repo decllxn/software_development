@@ -35,4 +35,8 @@
     [[ $I -gt 15 ]]
     (( I > 15 ))
   - I also learnt how to generate random numbers using RANDOM variable
+  - I also learnt how to evaluate mathematical operations and display output
+  - Example a variable NUMBER has value of 10
+  - I could store the value of $NUMBER raised to power 5 as shown below
+    NEWVALUE=$(( NUMBER ** 10 ))
     
