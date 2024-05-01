@@ -23,3 +23,16 @@
     do
       expression
     done
+##bingo project
+  - I learnt that in bash to evaluate expressions is different for square brackets and for parenthises
+  - For square brackets
+    You need to prepend variables using $
+    you need to use flags such as -lt(for less than), ge(greater than or equal to)
+  - For parenthesis
+    You do not need to prepend variables
+    You use expressions operater >=(greater than or equal to)
+  - Example. Show an expresson that checks if a variable I is greater than 15
+    [[ $I -gt 15 ]]
+    (( I > 15 ))
+  - I also learnt how to generate random numbers using RANDOM variable
+    
