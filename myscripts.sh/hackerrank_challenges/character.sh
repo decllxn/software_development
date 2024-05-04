@@ -3,12 +3,16 @@
 #Taking user input
 read CHARACTER
 
-if [[ $CHARACTER =~ [yYnY] ]]
-then
-  if [[ $CHARACTER == Y || $CHARACTER == y]]
+GET_CHARACTER () {
+  if [[ $CHARACTER == Y || $CHARACTER == y ]]
   then
     echo YES
   else
     echo NO
   fi
+}
+
+if [[ $CHARACTER =~ [yYnN] ]]
+then
+  GET_CHARACTER $CHARACTER
 fi
