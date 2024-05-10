@@ -1,1 +1,21 @@
 /* Write your code here: */
+h1,
+h2 {
+    color: blueviolet;
+}
+
+.box > p { /* Parent to child selector*/
+    color: firebrick;
+}
+
+.box li { /* Parent to descendant*/
+    color: blue;
+}
+
+li.done { /*Chaining selector, element, it's class and/or it's id */
+    color: seagreen;
+}
+
+div p.done { /* The parent and descendant which is specified through chaining */
+    font-size: 0.5rem;
+  }  
