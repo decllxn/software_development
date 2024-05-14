@@ -19,3 +19,47 @@ footer {
   color: midnightblue;
 }
 
+.tile-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-right: 50px;
+  border-radius: 10%;
+}
+
+.left { 
+  float: left;
+  width: 45%;
+}
+
+.right {
+  float: right;
+  width: 45%;
+}
+
+@media (max-width: 600px) {
+  .tile-image {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .left { 
+    float: none;
+    width: 100%;
+  }
+
+  .right {
+    float: none;
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  h1 {
+    width: 100%;
+  }
+}
+ 
