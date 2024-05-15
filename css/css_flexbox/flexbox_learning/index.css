@@ -1,0 +1,74 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+div {
+    flex: 1;
+}
+
+
+/*Learning about axis
+ *Main axis: left to right
+ *Cross axis: Top to bottom
+ *We can flip direction using flex-direction
+ */
+
+ /*How to position items on main axis
+  *We might want space between items
+  *We can use justify-content*/
+
+
+/*Adjusting specific items
+ *Using margin*/
+
+
+/*Making items responsive
+ *Using flex:
+ */
+
+ /*You can make only one item in the flex box move
+  *By using flex on that specific item*/
+
+/*flex-grow, flex-shrink, flex-basis*/
+
+
+/*ALIGN ITEMS
+ *Changing items along the cross-axis
+ *Using align-items
+ *When targeting a specific item, use align-self */
+
+
+ /*FLEX DIRECTION COLUMN
+  *Justify content now changes items vertically
+  Cause main axis is now vertical*/
+
+/*WRAPPING ITEMS*/
+/*Items set to flex-wrap: nowrap; by default
+with flew-wrap: wrap, items are wrapped to the next row when there is no space*/
+
+
+/*GROW, SHRINK, BASIS*/
+/*Properties of flex*/
+
+/* {
+    flex: 1 1 0;
+    flex-grow: 1
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+*All and the same things*/
+/*Basis - Setting the base width of items 
+  Grow - How much of the extra space should be distributed to items */
+  /* Setting one item to flex-grow: 2; makes one item grow twice as much as the other if the other is set to 1
+  shrink - rate of shrinking value of 0, the item doesn't shrink
+  short-hand rule:
+     flex: grow shrink basis;
+  */
+
+
+
+  /*ORDER*/
+  /*Used to move items around
+   items order rule are set to 0
+   when you target a specific item then set it to 1 pushes it to the other side*/
