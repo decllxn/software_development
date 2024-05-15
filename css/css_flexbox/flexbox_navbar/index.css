@@ -1,0 +1,29 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    padding: 0;
+}
+
+.search {
+    flex: 1;
+}
+
+@media all and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .container > li {
+        flex: 1 1 50%;
+    }
+
+    .search > input {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .search {
+        order: 1;
+    }
+}
