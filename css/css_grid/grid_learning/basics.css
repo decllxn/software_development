@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f4f8; /* Light blue background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 40px 10px 0 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+}
+
+.box1 {
+    background-color: #ff6f61; /* Coral */
+}
+
+.box2 {
+    background-color: #6b5b95; /* Purple */
+}
+
+.box3 {
+    background-color: #88b04b; /* Olive Green */
+}
+
+.box4 {
+    background-color: #f7cac9; /* Pink */
+}
+
+.box5 {
+    background-color: #92a8d1; /* Sky Blue */
+}
+
+.box6 {
+    background-color: #955251; /* Brown */
+}
