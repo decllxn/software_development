@@ -3,10 +3,16 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     padding: 40px 10px 0 10px;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 .container {
     text-align: center;
+    height: 50%;
 }
 
 .box {
