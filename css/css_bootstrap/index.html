@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        [class="col"] {
+            padding: 1rem;
+            background-color: #33b5e5;
+            border: 2px solid #fff;
+            color: #fff
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
-
+    <div class="container-md border">
+        <div class="row">
+            <div class="col-md-8">Col 1</div>
+            <div class="col-md-4">Col 2</div>
+        </div>
+    </div>   
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
