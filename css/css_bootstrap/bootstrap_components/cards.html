@@ -9,15 +9,74 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xxl-6">
-                <div class="card" style="width: 18rem;">
+            <div class="col-6">
+                <div class="card">
                     <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                   </div>  
             </div>
+            <div class="col-6"><!--Specifies what space to use as screen is increased and decreased-->
+                <div class="card">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet.
+                    <img src="https://picsum.photos/500/500" alt="" class="card-img-bottom">
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="container-fluid my-5">
+        <div class="card w-50">
+            <h1 class="card-header">
+                HELLO MY NAME IS DECLAN
+            </h1>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet.
+                <img src="https://picsum.photos/500/500" alt="" class="card-img-bottom">
+            </div>
+            <div class="card-footer">
+                This is me
+            </div>
+        </div>
+        <!--Structer of a card
+            Starts with making it a card with .card
+            Then there's a card header to a h* element .card-header
+            What is inside the card, images or text are defined in the .card-body
+            finally the ending ends with .card-footer 
+        -->
+        <!--CARD GROUPS
+          should have a div surrounding many divs inside with .card-group
+          other divs inside have classes .card
+          then they follow card structure
+        -->
+        <div class="card-group my-5">
+            <div class="card">
+              <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
     </div>
     <style src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></style>
 </body>
