@@ -7,13 +7,85 @@
     <title>Document</title>
 </head>
 <body>
-    <!--Typography is on among many utilities used in bootstrap
-       The h1 elements for bootstrap are responsive.
-    -->
-    <h1>h1. Bootstrap heading</h1>
-    <h2>h2. Bootstrap heading</h2>
-    <h3>h3. Bootstrap heading</h3>
+    <div class="container">
+        <div class="row">
+            <!--Typography is on among many utilities used in bootstrap
+            The h1 elements for bootstrap are responsive.
+            There are predefined styling that's applied to bootstrap texts.
+        -->
+        <div class="col-md-6">
+            <h1>h1. Bootstrap heading</h1>
+            <h2>h2. Bootstrap heading</h2>
+            <h3>h3. Bootstrap heading</h3> 
+        </div>
+        <!--There are classes .h1 - .h6 that when applied make paragraph texts looks like h1s
+        -->
+        <div class="col-md-6">
+            <p class="h1">This paragraph looks like a heading</p>
+            <p class="h2">This one looks like h2 element</p>
+            <p class="h6">What about this h6??</p>
+        </div>
+        </div>
 
+        <!--Using Display-num 1 through 6 gives your text a heading like appearance
+            Using them makes them appear like headings
+        -->
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="display-1">Display 1</h1>
+                <h1 class="display-2">Display 2</h1>
+            </div>
+            <div class="col-sm-3">
+                <h1 class="display-3">Display 3</h1>
+                <h1 class="display-4">Display 4</h1></div>
+            <div class="col-sm-3">
+                <h1 class="display-5">Display 5</h1>
+                <h1 class="display-6">Display 6</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p><del>The following text appears deleted with a line crossed on top of the writings</del></p>
+            </div>
+            <col-md-12><p><em>This is emphasised text.</em></p></col-md-12>
+        </div>
+        <!--Block quotes are used to style wordings
+          classes = .blockquote
+        -->
+
+        <div class="row">
+            <div class="col-sm-4">
+                <figure class="text-end">
+                    <blockquote class="blockquote">
+                        <p>“Wealth consists not in having great possessions, but in having few wants.”</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Words said by <cite title="Source-title">Epictetus</cite>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-4">
+                <figure class="text-center">
+                    <blockquote class="blockquote">
+                      <p>A well-known quote, contained in a blockquote element.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Someone famous in <cite title="Source Title">Source Title</cite>
+                    </figcaption>
+                  </figure>
+            </div>
+            <div class="col-sm-4">
+                <figure>
+                    <blockquote class="blockquote">
+                      <p>A well-known quote, contained in a blockquote element.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Someone famous in <cite title="Source Title">Source Title</cite>
+                    </figcaption>
+                  </figure>
+            </div>
+        </div>
+    </div>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
