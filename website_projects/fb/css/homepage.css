@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signout-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.signout-btn:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+.signout-btn:active {
+    transform: translateY(1px);
+}
