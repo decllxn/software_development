@@ -11,3 +11,9 @@ class Person:
 
 p1 = Person("John", 36)
 p1.myfunc()
+
+# THE SELF PARAMETER
+
+# The self parameter is a reference to the current instance of the class,
+# and is used to access the variables that belong to the class.
+

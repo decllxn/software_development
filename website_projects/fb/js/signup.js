@@ -15,14 +15,11 @@ document.getElementById("button").onclick = function () {
         })
         .then(() => {
             // Redirect to homepage after successful sign up
-            window.location.href = "/homepage.html";
+            window.location.href = "./homepage.html";
         })
         .catch((error) => {
             var errorCode = error.code;
             var errorMessage = error.message;
-            console.error("Error during sign up: ", errorCode, errorMessage);
-            // Optionally, you can display the error message to the user
-            alert(errorMessage);
         });
 }
 
