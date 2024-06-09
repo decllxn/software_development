@@ -1,0 +1,28 @@
+Step 3: Define File to Store Tasks
+ - Define a variable to store the file name where tasks will be saved
+
+Step 4: Create Functions for Basic Operations
+ - Create a function to display tasks:
+
+Check if the task file exists and is not empty.
+If tasks exist, display them with line numbers.
+Create a function to add a task:
+
+Append the new task to the task file.
+Create a function to remove a task:
+
+Remove the specified task using sed.
+Step 5: Implement the Main Menu
+Implement a while loop to continuously display the menu until the user chooses to exit.
+Use a case statement to handle user choices:
+Add task
+Remove task
+Display tasks
+Exit the script
+Step 6: Add User Input Handling
+Use read to capture user input for task descriptions and task numbers.
+Step 7: Save and Test
+Save your script.
+Run the script in your terminal to test its functionality:
+
+
