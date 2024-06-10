@@ -1,0 +1,10 @@
+Name:         Weapon:           Color:        Catchphrase:
+Leonardo      Katana            Blue          "Turtles fight with honor!"
+Michelangelo  Nunchucks         Orange        "Cowabunga!"
+Donatello     Bo Staff          Purple        "Machines can help solve anything."
+Raphael       Sai               Red           "Hotheaded and ready to fight."
+Splinter      Cane              Brown         "Wisdom comes from experience."
+Shredder      Blades            Silver        "I will destroy the turtles!"
+April         None              Yellow        "Always ready to help."
+Casey         Hockey Stick      White         "Goongala!"
+
