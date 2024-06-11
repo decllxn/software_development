@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Property values in an object can be other objects
 
 me = {
