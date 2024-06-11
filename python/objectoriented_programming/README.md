@@ -1,7 +1,7 @@
  ## Foundations:
 
    - Basic Python: Ensure you have a solid grasp of core Python concepts like variables, data types (numbers, strings, booleans, lists, dictionaries, etc.), operators, control flow (if/else, for loops, while loops), and functions. These fundamentals serve as the building blocks of OOP.
-Understanding OOP Concepts:
+## Understanding OOP Concepts:
 
    - Classes and Objects: In OOP, a class acts as a blueprint defining the properties (attributes) and functionalities (methods) of objects. An object is an instance created from a class, representing a specific entity with its own attributes and methods. Break down the concept by creating classes for real-world things like Car or Book.
 
