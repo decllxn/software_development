@@ -28,3 +28,23 @@ person.fullName.call(person2)
 
 
 // -- Call() Method with Arguments -- 
+// call can accept many arguments
+
+const Car = {
+    fullCarName: function (mileage, color) { // Taking many arguments 
+        return "The " + this.Brand + " " + this.model + " has " + mileage + 
+        " on it. And it is color " + color;
+    }
+} // method in car object
+// The method taking arguments, thus we have to call the call() with arguments passed to it
+// color and mileage should not be accesse dwith this as they are parameters of the function
+
+// Creating the next object
+const myCar = {
+    Brand:"Pagani",
+    model:"Utopia"
+}
+
+let x = Car.fullCarName.call(myCar, 30045, "Beige");
+console.log(x);
+
