@@ -43,5 +43,4 @@ if __name__ == '__main__':
     print(car1.car_name)
 
     car1.car_name = 'BMW'
-
     del car1.car_name
